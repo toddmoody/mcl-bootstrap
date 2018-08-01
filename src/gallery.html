@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+      "css": "theme",
+      "title": "Matamata Country Lodge | Image Gallery"
+    })
+  </head>
+  <body>
+
+      <div class="alert alert-warning alert-dismissible fade show alert-home" role="alert">
+          Need assistance? </strong><a href="contact.html">contact us.</a>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+      </div>
+
+    <!-- NAVBAR
+    ================================================= -->
+    @@include("partials/navbar.html", {
+      "togglable": false,
+      "type": "light",
+      "page": "gallery.html",
+      "button": {
+        "url": "https://themes.getbootstrap.com/product/incline-landing-page-set/",
+        "text": "Purchase now"
+      }
+    })
+
+    <section id="gallery" class="pt-9">
+    <div class="message">
+        Sorry, your browser does not support CSS Grid. 😅
+      </div>
+      <div class="section">
+        <div class="grid">
+          <div class="item">
+            <!-- <div class="item__details">
+              
+            </div> -->
+          </div>
+          <div class="item item--large">
+            <!-- <div class="item__details">
+             
+            </div> -->
+          </div>
+          <div class="item item--medium">
+            <!-- <div class="item__details">
+       
+            </div> -->
+          </div>
+          <div class="item item--large">
+            <!-- <div class="item__details">
+   
+            </div> -->
+          </div>
+          <div class="item item--full">
+            <!-- <div class="item__details">
+      
+            </div> -->
+          </div>
+          <div class="item item--medium">
+            <!-- <div class="item__details">
+ 
+            </div> -->
+          </div>
+          <div class="item item--large">
+            <!-- <div class="item__details">
+       
+            </div> -->
+          </div>
+          <div class="item">
+            <!-- <div class="item__details">
+        
+            </div> -->
+          </div>
+          <div class="item item--medium">
+            <!-- <div class="item__details">
+     
+            </div> -->
+          </div>
+          <!-- <div class="item item--large">
+            <div class="item__details">
+    
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__details">
+
+            </div>
+          </div>
+          <div class="item item--medium">
+            <div class="item__details">
+        
+            </div>
+          </div>
+          <div class="item item--medium">
+            <div class="item__details">
+
+            </div>
+          </div>
+          <div class="item item--large">
+            <div class="item__details">
+         
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__details">
+     
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>  
+  
+    <!-- FOOTER
+    ================================================== -->
+    @@include("partials/footer.html")
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+  </body>
+</html>

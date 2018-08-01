@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+      "css": "theme",
+      "title": "Matamata Country Lodge | About & History"
+    })
+    <title>Matamata Country Lodge | About & History</title>
+  </head>
+  <body>
+
+    <div class="alert alert-warning alert-dismissible fade show alert-home" role="alert">
+        Need assistance? <a href="contact.html">contact us.</a>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+    </div>
+
+    <!-- NAVBAR
+    ================================================= -->
+    @@include("partials/navbar.html", {
+      "togglable": false,
+      "type": "light",
+      "page": "about.html",
+      "button": {
+        "url": "https://themes.getbootstrap.com/product/incline-landing-page-set/",
+        "text": "Purchase now"
+      }
+    })
+    
+    <!-- HEADER
+    ================================================== -->
+    <section class="section pb-0">
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row mt-8">
+          <div class="col">
+            
+            <!-- Header -->
+            <div class="header bg-cover" style="background-image: url(assets/img/mcl-history.jpg);"></div>
+
+          </div>
+        </div> <!-- / .row -->
+        <small class="photo-ref">Original Hospital pictured circa 1924. Photo courtesy of Sir George Grey Special Collections, Auckland Libraries, 35-R707</small>
+      </div> <!-- / .container -->
+
+    </section>
+
+    <!-- ABOUT
+    ================================================== -->
+    <section class="section pb-0">
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            
+            <!-- Title -->
+            <div class="title">
+              A lodge rich in history
+            </div>
+
+          </div>
+          <div class="col-md-5">
+            
+            <!-- Heading -->
+            <h3 class="mb-4">
+              Originally opened in 1924 as a maternity hospital, the building was later purchased by <span class="text-primary">the Main family.</span>
+            </h3>
+
+            <!-- Content -->
+            <p class="text-muted">
+              In 1992, Ron and Jamie were approached by the local council and asked if they would consider converting the existing building into a Rest Home.
+            </p>
+
+            <p class="text-muted">
+                The building, having been vacant for many years was in a terrible state of disrepair. Its former glory was nearly unrecognisable. On initial inspection along with the Mayor and local councillors, Ron and Jamie were confronted with a daunting task and almost declined.
+              </p>
+
+          </div>
+          <div class="col-md-5">
+            
+            <!-- Content -->
+            <p class="text-muted">
+              However, given Ron was born in the original maternity hospital he was especially fond of the building and the grand restoration project was accepted.
+            </p>
+            <p class="text-muted">
+              Once the building had been restored to its former glory, an open day was organised and the response from the Matamata Community was unbelievable. We often have Staff, Residents and their Families returning to the place they were born.
+            </p>
+  
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+
+    <!-- TEAM
+    ================================================== -->
+    <section class="section pb-0">
+      
+      <!-- Content -->
+      <div class="container">
+        <div class="row mb-8">
+          <div class="col-md-2">
+            
+            <!-- Title -->
+            <div class="title">
+              About The Main Group
+            </div>
+
+          </div>
+          <div class="col-md-10">
+            
+            <!-- Heading -->
+            <h3 class="mb-4">
+              100% family owned and operated
+            </h3>
+
+            <!-- Subheading -->
+            <p class="text-muted mb-5">
+              Matamata Country Lodge is privately owned by the Main family. Ron and Jamie purchased the property in 1992.  Today the Main Family who, along with a dedicated team of caring professionals, are actively involved in the day to day operation of the lodge.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+
+    <!-- FOOTER
+    ================================================== -->
+    @@include("partials/footer.html")
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+  </body>
+</html>
