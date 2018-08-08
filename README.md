@@ -6,9 +6,9 @@ Matamata Country Lodge - Bootstrap v4 web app
 
 Matamata Country Lodge (retirement village) required a website to help them promote their facility. In particular, the client wanted to showcase their award winning landscaping and gardens and the fact they are an NZ family owned and operated business - a relatively unique selling point in the industry!
 
-###### Staging URL
+###### Production URL
 
-https://toddmoody.github.io/mcl-bootstrap/
+https://matamatacountrylodge.co.nz/
 
 ###### Key functionality / deliverables
 
