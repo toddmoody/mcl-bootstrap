@@ -1,10 +1,7 @@
 {
   "private": true,
-  "name": "Incline",
   "version": "1.0.4",
-  "description": "Landing page set",
   "main": "gulpfile.js",
-  "author": "Simpleqode",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
